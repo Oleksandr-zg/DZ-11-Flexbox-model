@@ -36,7 +36,10 @@
 
 @import './body.scss';
 @import './header.scss';
+@import './main.scss';
 
 * {
+    margin: 0;
     box-sizing: border-box;
 }
+

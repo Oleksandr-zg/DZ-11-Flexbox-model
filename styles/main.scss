@@ -1,0 +1,115 @@
+.main {
+    &__container {
+        margin: 0 auto;
+        max-width: 1290px;
+    }
+    
+
+    &__container_1 {
+        padding-top: 97px;
+        margin-bottom: 147px;
+        
+    }
+
+    &__container_1_1 {
+        display: flex;
+    }
+
+    &__container_1_2 {
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text_h1 {
+        margin: 0 0 50px;
+        font-family: 'GraphikLCG-Semibold';
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+
+    &__text_1_1 {
+        margin: 0 0 50px;
+        padding-right: 68px;
+        font-family: 'GraphikLCG-Regular';
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+
+    &__button {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__btn_1 {
+        min-width: 160px;
+        padding: 1px 20px;
+        font-family: 'GraphikLCG-Semibold';
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        text-decoration: none;
+        background: rgb(255, 99, 54);
+        transition: all .3s;
+        &:hover {
+            background: rgb(0, 255, 55);
+        }
+    }
+
+    &__btn_2 {
+        min-width: 160px;
+        padding: 0px 20px;
+        font-family: 'GraphikLCG-Semibold';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        transition: all .3s;
+        &:hover {
+            background: rgb(0, 255, 55);
+        }
+    }
+
+    &__text_1_2 {
+        margin: 25px 0 35px;
+        font-family: 'GraphikLCG-Regular';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    &__image_1 {
+        padding-top: 54px;
+        // @media screen and (max-width: 1120px) {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    
+    &__container_2 {
+        background: rgb(255, 156, 125);
+    }
+
+    &__h2_container_2 {
+        padding-top: 98px;
+        padding-bottom: 70px;
+        font-family: 'GraphikLCG-Semibold';
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    &__images_container_2 {
+        padding-bottom: 94px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
