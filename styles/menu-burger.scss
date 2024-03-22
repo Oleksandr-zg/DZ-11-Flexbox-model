@@ -1,0 +1,87 @@
+.header {
+
+    &__input {
+        &:checked~.header__menu-btn>span {
+            transform: rotate(45deg);
+        }
+
+        &:checked~.header__menu-btn>span::before {
+            top: 0;
+            transform: rotate(0);
+        }
+
+        &:checked~.header__menu-btn>span::after {
+            top: -1px;
+            transform: rotate(90deg);
+        }
+
+        &:checked~.header__list {
+            visibility: visible;
+            left: 0;
+        }
+    }
+
+    &__menu-btn {
+        width: 48px;
+        height: 48px;
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        &__, span, span::before, span::after {
+            display: block;
+            position: relative;
+            width: 26px;
+            height: 2px;
+            background-color: #7f82a1;
+            transition-duration: .25s;
+        }
+        &__, span::before {
+            content: '';
+            top: -8px;
+        }
+        &__, span::after {
+            content: '';
+            top: 8px;
+        }
+    }
+
+    &__list {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 58px;
+        left: 0px;
+        min-width: 150px;
+        margin: 0;
+        list-style: none;
+        background-color: #d4d4e3;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        transition-duration: .01s;
+    }
+    
+    &__element {
+        display: block;
+        margin-left: 5px;
+        margin-top: 10px;
+        color: #2a2a38;
+        font-family: 'GraphikLCG-Regular';
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .01s;
+        &:hover {
+            background-color: #1479a4;
+        }
+    }
+
+        &__btn-left, &__btn-right {
+            margin-left: 5px;
+            transition-duration: .01s;
+        }
+}
+
+
+
+
