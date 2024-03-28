@@ -22,9 +22,9 @@
     }
 
     &__menu-btn {
-        width: 48px;
-        height: 48px;
-        padding: 10px 10px;
+        width: 3rem;
+        height: 3rem;
+        padding: 0.625rem 0.625rem;
         display: flex;
         align-items: center;
         cursor: pointer;
@@ -32,18 +32,18 @@
         &__, span, span::before, span::after {
             display: block;
             position: relative;
-            width: 26px;
+            width: 1.625rem;
             height: 2px;
             background-color: #7f82a1;
             transition-duration: .25s;
         }
         &__, span::before {
             content: '';
-            top: -8px;
+            top: -7px;
         }
         &__, span::after {
             content: '';
-            top: 8px;
+            top: 7px;
         }
     }
 
@@ -51,11 +51,9 @@
         display: block;
         position: fixed;
         visibility: hidden;
-        top: 58px;
-        left: 0px;
-        min-width: 150px;
+        top: 3.75rem;
+        min-width: 9.375rem;
         margin: 0;
-        list-style: none;
         background-color: #d4d4e3;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
         transition-duration: .01s;
@@ -67,7 +65,7 @@
         margin-top: 10px;
         color: #2a2a38;
         font-family: 'GraphikLCG-Regular';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         text-decoration: none;
         transition-duration: .01s;

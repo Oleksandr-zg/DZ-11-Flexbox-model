@@ -1,8 +1,8 @@
 .header {
     margin: 0 auto;
     max-width: 1440px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
     border-bottom: 1px solid #CCCCCC;
     position: fixed; 
     left: 0;
@@ -15,8 +15,10 @@
     }
 
     &__logo {
+        width: 8.125rem;
+        height: 1.75rem;
         float: left;
-        margin: 9.5px 5px;
+        margin: 0.594rem 0.313rem;
     }
 
     &__nav {
@@ -58,9 +60,9 @@
 
     &__element {
         font-family: 'GraphikLCG-Regular';
-        font-size: 15px;
+        font-size: 0.938rem;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 1.25rem;
         text-decoration: none;
         @media only screen and (max-width: 970px) {
             @import 'menu-burger';
@@ -85,9 +87,9 @@
 
     &__btn-left {
         @extend %template__button;
-        min-width: 120px;
-        padding: 0px 20px;
-        line-height: 45px;
+        min-width: 7.5rem;
+        padding: 0px 1.25rem;
+        line-height: 2.813rem;
         border: 1px solid rgba(0, 0, 0, 0.5);
         @media only screen and (max-width: 520px) {
             @import 'menu-burger';
@@ -96,9 +98,9 @@
 
     &__btn-right {
         @extend %template__button;
-        min-width: 120px;
-        padding: 1px 20px;
-        line-height: 45px;
+        min-width: 7.5rem;
+        padding: 1px 1.25rem;
+        line-height: 2.813rem;
         color: rgb(255, 255, 255);
         background: rgb(255, 99, 54);
         @media only screen and (max-width: 520px) {

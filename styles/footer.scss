@@ -10,11 +10,16 @@
     }
 
     &__section {
-        padding-top: 92px;
+        margin: 0 5px;
+        padding-top: 7.132vw;
         display: flex;
         justify-content: space-between;
-        // gap: 140px;
+        gap: 10px;
         flex-wrap: wrap;
+        @media only screen and (max-width: 1043px) {
+            justify-content: space-around;
+            gap: 20px;
+        }
     }
 
     &__block {
@@ -22,60 +27,61 @@
     }
 
     &__text-h5-block {
-        margin-bottom: 28px;
+        margin-bottom: 2.171vw;
         font-family: 'GraphikLCG-Regular';
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
-        line-height: 50px;
+        line-height: 3.125rem;
     }
 
     &__image-block {
-        margin-bottom: 39px;
+        margin-bottom: 3.101vw;
     }
 
     &__text-p-block {
-        padding-top: 11px;
-        margin-bottom: 15px;
+        padding-top: 0.853vw;
+        margin-bottom: 1.163vw;
         font-family: 'GraphikLCG-Regular';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 
     &__reference-block {
         color: rgb(0, 0, 0);
         font-family: 'GraphikLCG-Semibold';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
-        line-height: 30px;
+        line-height: 1.875rem;
         text-decoration: none;
     }
 
     &__nav {
         display: flex;
+        flex-wrap: wrap;
         gap: 34px;
     }
 
     &__nav-list-heading {
         list-style: none;
         font-family: 'GraphikLCG-Semibold';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
-        line-height: 25px;
+        line-height: 1.563rem;
     }
 
     &__nav-list-element {
-        padding-top: 21px;
+        padding-top: 1.628vw;
         list-style: none;
         padding-left: 0px;
     }
 
     &__, li {
-        margin-bottom: 15px;
+        margin-bottom: 1.163vw;
         font-family: 'GraphikLCG-Regular';
-        font-size: 15px;
+        font-size: 0.938rem;
         font-weight: 400;
-        line-height: 15px;
+        line-height: 0.938rem;
     }
 
     &__, a {
@@ -87,8 +93,9 @@
     }
 
     &__block-logo {
-        padding-top: 53px;
-        padding-bottom: 43px;
+        margin: 0 5px;
+        padding-top: 4.109vw;
+        padding-bottom: 3.333vw;
         display: flex;
         justify-content: space-between;
     }
@@ -97,13 +104,17 @@
         display: flex;
         gap: 14px;
         flex-wrap: wrap;
+    }
 
+    &__lokalise_logo {
+        width: 5.625rem;
+        height: 1.313rem;
     }
 
     &__text-p-logo, &__date {
         font-family: 'GraphikLCG-Regular';
-        font-size: 12px;
+        font-size: 0.75rem;
         font-weight: 400;
-        line-height: 15px;
+        line-height: 0.938rem;
     }
 }
