@@ -88,7 +88,7 @@
     }
 
     &__color-section-number-2 {
-        background: rgb(255, 156, 125);
+        // background: rgb(255, 156, 125);
     }
 
     &__text-h3-section-number-2 {
@@ -101,16 +101,17 @@
     &__images-section-number-2 {
         padding-bottom: 6.977vw;
         display: flex;
+        gap: 20px;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
         @media only screen and (max-width: 860px) {
             padding-bottom: 6.528vw;
-            flex-wrap: wrap;    
         }
     }
 
     &__list-section-number-2 {
-        width: 160px;
+        max-width: 165px;
         text-align: center;
     }
 
